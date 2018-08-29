@@ -4,12 +4,45 @@
 	<title>Contact Page</title>
 </head>
 <body>
-<ul>
-	<li>Phone Number: 0844007711</li>
-	<li>Email: contact@lemonde.com</li>
-</ul>
-<a href="./about.html">About</a>
-<a href="./contact.html">Contact</a>
-<a href="./index.html">Index</a>
+
+<div id="flex_box_container">
+	
+	<div class="flex_box_item">
+		<ul>
+			<li>Phone Number: 0844007711</li>
+			<li>Email: contact@lemonde.com</li>
+		</ul>
+		<a href="./about.html">About</a>
+		<a href="./contact.html">Contact</a>
+		<a href="./index.html">Index</a>
+	</div>
+
+	<div class="flex_box_item">
+		<p>HELLO!</p>	
+	</div>
+
+	<div class="flex_box_item">
+		<p>HI!</p>	
+	</div>
+	
+</div>
+
+
+<style type="text/css">
+
+	#flex_box_container {
+		display: flex;
+		height: 200px;
+		justify-content: center;
+	}
+
+	.flex_box_item {
+		width: 200px;
+		margin-left: 5px;
+		background-color: blue;
+		flex: 1;
+	}
+	
+</style>
 </body>
 </html>
